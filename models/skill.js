@@ -1,7 +1,7 @@
 const skills = [
-  { id: 1994, skill: "year born", done: true },
-  { id: 2004, skill: "best year ever", done: true },
-  { id: 1987, skill: "best decade", done: false },
+  { id: 2000, skill: "finished school", done: true },
+  { id: 2016, skill: "got diploma", done: true },
+  { id: 2023, skill: "software engineer", done: false },
 ];
 
 function getAll() {
