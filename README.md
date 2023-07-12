@@ -1,36 +1,6 @@
 # express-dev-skills
 
 # My Dev Skills - Part 1
-Intro
-You’ve now seen how we can generate a skeleton Express application and implement the index & show functionality for a resource (To Dos).
-
-Now it’s time to practice by doing the very same thing, but for a different data resource - developer skills.
-
-This lab, combined with Part 2, is a Deliverable
-Setup
-Move into your ~/code folder.
-
-Scaffold a new app named express-dev-skills using express generator (don’t forget the -e option).
-
-cd express-dev-skills and install the Node modules with npm i.
-
-Make the project a local git repo: git init
-
-Create a new repo on your PERSONAL GitHub account named express-dev-skills. Copy the new repo’s URL for use in the next step…
-
-Back in Terminal, add the remote: git remote add origin <Paste the URL>
-
-As you make progress, be sure to commit and push your progress.
-
-As always, make the first commit using:
-
-git add -A
-git commit -m "Initial commit"
-git push -u origin main
-Then subsequent pushes can be made using:
-
-git push
-Exercises
 The goal of the lab is to put in a rep doing everything that you did during the Express - Routers & Controllers lesson:
 
 Be sure to create an array of “fake” data representing some of your awesome developer skills. The specific properties describing a skill object is up to you!
@@ -54,17 +24,6 @@ Use EJS partial views to make your templates more DRY (see link in Reference sec
 Add styling or use a CSS framework to make the app look better
 
 # My Dev Skills - Part 2
-Intro
-In recent lessons you saw how to use HTML forms and Express middleware, such as:
-
-express.urlencoded (AKA body-parser middleware)
-method-override
-to perform Create, Update & Delete data operations in an Express application.
-
-This lab builds upon the express-dev-skills project you created in the My Dev Skills - Part 1 lab where the Read data operations were implemented.
-
-This Lab is a Deliverable
-Exercises
 The goal of the lab is to do put in a rep doing everything that you did during the Express - Middleware lesson by adding the following functionality to the express-dev-skills project:
 
 Display an Add Skill link on the index view that when clicked, displays a new view that includes a form for entering a new Dev Skill.
